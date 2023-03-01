@@ -1,0 +1,7 @@
+{
+    "scripts": [
+        "create path (sling:OrderedFolder) /content/dam/bgaemforms",
+        "create path (nt:unstructured) /content/dam/bgaemforms/jcr:content",
+        "set properties on /content/dam/bgaemforms/jcr:content\n  set cq:conf{String} to /conf/bgaemforms\n  set jcr:title{String} to \"Borgo AEM Forms\"\nend"
+    ]
+}

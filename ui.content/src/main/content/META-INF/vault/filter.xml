@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/bgaemforms" mode="merge"/>
+    <filter root="/content/bgaemforms" mode="merge"/>
+    <filter root="/content/dam/bgaemforms" mode="merge">
+        <exclude pattern="/content/dam/bgaemforms(/.*)?"/>
+        <include pattern="/content/dam/bgaemforms/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/bgaemforms/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/bgaemforms" mode="merge"/>
+    <filter root="/content/dam/formsanddocuments-themes/bgaemforms" mode="merge"/>
+    <filter root="/content/dam/formsanddocuments-fdm/bgaemforms" mode="merge"/>
+    <filter root="/content/dam/bgaemforms/sample_logo.png" mode="merge"/>
+    <filter root="/content/dam/bgaemforms/sample_terms.png" mode="merge"/>
+</workspaceFilter>
